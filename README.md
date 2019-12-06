@@ -1,14 +1,10 @@
-# SHARC
+# SHARC NextFlow Pipeline Rewrite
 
-## INSTALL
+## Intro
+SHARC is a pipeline for somatic SV calling and filtering from tumor-only Nanopore sequencing data. It performs mapping, SV calling, SV filtering, random forest classification, blacklist filtering and SV prioritization, followed by automated primer design for PCR amplicons of 80-120 bp that are useful to track cancer ctDNA molecules in liquid biopsies.
+
+##Issues
 ```
-git clone git@github.com:UMCUGenetics/SHARC.git sharc
-cd sharc
-virtualenv venv -p python3
-. venv/bin/activate
-pip install -r requirements.txt
-```
-## How to run
-```
-bash sharc.sh -f </path/to/fastqdir> -m <email> -o </path/to/outputdir>
+1: Is splitting VCFs necessary?
+   Is this just to get mean coverages for each Chr?
 ```

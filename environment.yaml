@@ -1,0 +1,34 @@
+name: SHARC
+channels:
+  - conda-forge
+  - r
+  - pcgr
+  - bioconda
+  - defaults
+dependencies:
+  - primer3=2.4.1a
+  - minimap2=2.17
+  - sambamba=0.7.0
+  - samtools=1.9
+  - certifi=2019.9.11
+  - chardet=3.0.4
+  - idna=2.8
+  - pyvcf=0.6.8
+  - requests=2.22.0
+  - urllib3=1.25.7
+  - configparser=3.7.3
+  - nanosv=1.2.4
+  - pysam=0.15.3
+  - aniso8601=8.0.0
+  - flask=1.1.1
+  - flask-restful=0.3.7
+  - itsdangerous=1.1.0
+  - jinja2=2.10.3
+  - markupsafe=1.1.1
+  - pymongo=3.9.0
+  - pytz=2019.3
+  - six=1.13.0
+  - werkzeug=0.16.0
+  - r=3.6.0
+  - r-randomforest=4.6_14
+prefix: /opt/miniconda/envs/SHARC
